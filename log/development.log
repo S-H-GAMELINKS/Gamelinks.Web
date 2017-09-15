@@ -16961,3 +16961,1798 @@ Processing by GamelinksController#home as HTML
 Completed 200 OK in 322ms (Views: 294.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-15 19:47:58 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (3417.7ms)
+Completed 500 Internal Server Error in 5062ms
+
+
+  
+ActionView::Template::Error (require_tree argument must be a directory):
+    1: <title>GAMELINKS</title>
+    2: 
+    3: <%= image_tag 'hanakotoba1.png'%>
+    4: <%= image_tag 'hanakotoba2.png'%>
+    5: <%= image_tag 'igv1.png'%>
+    6: <%= image_tag 'igv2.png'%>
+  
+app/assets/javascripts/cable.js:6
+app/views/gamelinks/home.html.erb:3:in `_app_views_gamelinks_home_html_erb___452000519_38385744'
+Started GET "/" for 127.0.0.1 at 2017-09-15 19:59:45 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (13.2ms)
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:00:36 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51760ms (Views: 48821.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:01:54 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 79321ms (Views: 79197.9ms)
+
+
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1847ms (Views: 1718.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:02:01 +0900
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:02:01 +0900
+Processing by GamelinksController#home as HTML
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (17.4ms)
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 1372ms
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     7: 
+     8:     <%= csrf_meta_tags %>
+     9: 
+    10:     <%= stylesheet_link_tag    'application', media: 'all',
+    11: 
+    12:                                               'data-turbolinks-track': 'reload' %>
+    13: 
+  
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___752254959_48006720'
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2295ms (Views: 2106.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:04:07 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 1322ms (Views: 1188.9ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 20:04:12 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1176ms (Views: 1061.4ms)
+
+
+Started GET "/gamelinks/linksreference" for 127.0.0.1 at 2017-09-15 20:04:15 +0900
+Processing by GamelinksController#linksreference as HTML
+  Rendering gamelinks/linksreference.html.erb within layouts/application
+  Rendered gamelinks/linksreference.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (13.3ms)
+Completed 200 OK in 1101ms (Views: 981.3ms)
+
+
+Started GET "/gamelinks/linksreference" for 127.0.0.1 at 2017-09-15 20:04:19 +0900
+Processing by GamelinksController#linksreference as HTML
+  Rendering gamelinks/linksreference.html.erb within layouts/application
+  Rendered gamelinks/linksreference.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (13.3ms)
+  Rendered layouts/_header.html.erb (15.8ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1201ms (Views: 1101.6ms)
+
+
+Started GET "/gamelinks/linksreference" for 127.0.0.1 at 2017-09-15 20:05:08 +0900
+Processing by GamelinksController#linksreference as HTML
+  Rendering gamelinks/linksreference.html.erb within layouts/application
+  Rendered gamelinks/linksreference.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1099ms (Views: 1007.0ms)
+
+
+Started GET "/gamelinks/linksreference" for 127.0.0.1 at 2017-09-15 20:06:24 +0900
+Processing by GamelinksController#linksreference as HTML
+  Rendering gamelinks/linksreference.html.erb within layouts/application
+  Rendered gamelinks/linksreference.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1139ms (Views: 1031.4ms)
+
+
+Started GET "/gamelinks/home" for 127.0.0.1 at 2017-09-15 20:06:54 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/gamelinks/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/gamelinks/linksreference" for 127.0.0.1 at 2017-09-15 20:07:41 +0900
+Processing by GamelinksController#linksreference as HTML
+  Rendering gamelinks/linksreference.html.erb within layouts/application
+  Rendered gamelinks/linksreference.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1127ms (Views: 1007.3ms)
+
+
+Started GET "/gamelinks/home" for 127.0.0.1 at 2017-09-15 20:07:47 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/gamelinks/home"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/gamelinks/linksreference" for 127.0.0.1 at 2017-09-15 20:08:49 +0900
+Processing by GamelinksController#linksreference as HTML
+  Rendering gamelinks/linksreference.html.erb within layouts/application
+  Rendered gamelinks/linksreference.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (13.3ms)
+Completed 200 OK in 1139ms (Views: 1021.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:08:53 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1127ms (Views: 1021.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:09:03 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (13.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1113ms (Views: 1020.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:09:07 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1113ms (Views: 995.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:09:11 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1140ms (Views: 1018.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:09:15 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 1184ms (Views: 1061.4ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:13:39 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1540ms (Views: 1427.9ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:14:10 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1055ms (Views: 956.8ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:17:01 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1103ms (Views: 997.7ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:17:22 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1101ms (Views: 985.1ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:17:58 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1026ms (Views: 935.4ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:18:35 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 1057ms (Views: 945.1ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:20:17 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 24196ms (Views: 24097.4ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:22:11 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (14.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 20180ms (Views: 20079.0ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:24:00 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 20186ms (Views: 20079.0ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:25:12 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1134ms (Views: 1028.8ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:26:10 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (13.3ms)
+Completed 200 OK in 1113ms (Views: 997.4ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:29:57 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1099ms (Views: 999.4ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:37:33 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1105ms (Views: 1002.3ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:37:58 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (13.9ms)
+Completed 200 OK in 1127ms (Views: 1021.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 20:38:46 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 1300ms (Views: 1191.2ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:38:53 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1185ms (Views: 1051.9ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:43:37 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 20249ms (Views: 20148.3ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:43:57 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1338ms (Views: 1171.1ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:44:48 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1087ms (Views: 981.4ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:46:43 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1053ms (Views: 956.2ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:47:59 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1087ms (Views: 975.0ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:48:13 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (13.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1047ms (Views: 951.0ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:48:25 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1147ms (Views: 1041.8ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:48:34 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1114ms (Views: 1008.8ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 20:49:11 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (13.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1099ms (Views: 995.4ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 20:49:31 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (13.3ms)
+Completed 200 OK in 1159ms (Views: 1046.3ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:03:39 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1325ms (Views: 1179.6ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:05:30 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1172ms (Views: 1061.8ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 21:05:35 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1126ms (Views: 1020.3ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 21:05:37 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1213ms (Views: 1107.1ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-15 21:06:51 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (13.3ms)
+Completed 200 OK in 1100ms (Views: 993.5ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:07:55 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (13.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (14.9ms)
+Completed 200 OK in 1854ms (Views: 1721.3ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:13:55 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (3920.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (278.3ms)
+  Rendered layouts/_footer.html.erb (6.0ms)
+Completed 200 OK in 6015ms (Views: 5846.0ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:15:34 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (37.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1319ms (Views: 1214.9ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:16:14 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (21.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1155ms (Views: 1053.1ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:16:37 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (31.7ms)
+  Rendered layouts/_shim.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (18.1ms)
+Completed 200 OK in 1222ms (Views: 1101.3ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:16:51 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1133ms (Views: 1041.4ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 21:18:22 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1187ms (Views: 1079.7ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:20:49 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1403ms (Views: 1281.2ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:21:58 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1102ms (Views: 1015.6ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:23:56 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (98.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1203ms (Views: 1100.4ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:24:21 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (69.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (18.6ms)
+  Rendered layouts/_footer.html.erb (17.6ms)
+Completed 200 OK in 1169ms (Views: 1041.5ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:25:10 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (117.2ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1206ms (Views: 1113.4ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:25:34 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (100.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1157ms (Views: 1056.6ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:27:52 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (200.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1335ms (Views: 1230.0ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:31:33 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (200.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1504ms (Views: 1410.0ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:33:33 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (138.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1272ms (Views: 1163.3ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:34:19 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (148.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1203ms (Views: 1101.7ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:37:25 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (147.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1304ms (Views: 1193.6ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:37:51 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (131.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1249ms (Views: 1133.9ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:42:34 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (684.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 3058ms (Views: 2881.1ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:44:58 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (185.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1419ms (Views: 1306.0ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:46:19 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (932.5ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (10.0ms)
+  Rendered layouts/_footer.html.erb (6.5ms)
+Completed 200 OK in 3460ms (Views: 3158.7ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:47:52 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (184.9ms)
+  Rendered layouts/_shim.html.erb (3.5ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1572ms (Views: 1439.5ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 21:54:51 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (717.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 3523ms (Views: 3328.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 21:58:38 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (247.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1826ms (Views: 1708.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 22:01:58 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (231.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1435ms (Views: 1321.3ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:04:09 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1403ms (Views: 1254.6ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:06:21 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (379.7ms)
+  Rendered layouts/_shim.html.erb (19.5ms)
+  Rendered layouts/_header.html.erb (9.7ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 3241ms (Views: 3051.1ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:11:44 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (50.9ms)
+  Rendered layouts/_shim.html.erb (25.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 3035ms (Views: 2740.4ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:13:58 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (13.9ms)
+Completed 200 OK in 1551ms (Views: 1415.8ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:17:50 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (49.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 2949ms (Views: 2691.1ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:18:25 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (15.7ms)
+Completed 200 OK in 1371ms (Views: 1243.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 22:20:25 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (403.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 2051ms (Views: 1906.4ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:20:30 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (18.4ms)
+  Rendered layouts/_header.html.erb (15.8ms)
+  Rendered layouts/_footer.html.erb (7.5ms)
+Completed 200 OK in 2158ms (Views: 1810.5ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:23:18 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (38.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (16.1ms)
+Completed 200 OK in 2608ms (Views: 2443.6ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:25:10 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1573ms (Views: 1430.5ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:31:54 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (53.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 2274ms (Views: 2065.1ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:33:32 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1719ms (Views: 1591.2ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:34:09 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (18.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2089ms (Views: 1967.7ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:36:43 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:36:44 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendered layouts/_header.html.erb (138.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2004ms (Views: 1880.2ms)
+
+
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1555ms (Views: 1304.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:37:51 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (18.6ms)
+  Rendered layouts/_header.html.erb (15.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1334ms (Views: 1224.1ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:38:34 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1603ms (Views: 1428.2ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:38:46 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (6.0ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 2215ms (Views: 1951.6ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:39:52 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_shim.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (17.6ms)
+  Rendered layouts/_footer.html.erb (16.1ms)
+Completed 200 OK in 1576ms (Views: 1457.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:40:28 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1553ms (Views: 1426.2ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:40:47 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (17.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1218ms (Views: 1106.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:41:20 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1233ms (Views: 1128.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 22:43:03 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (368.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 1688ms (Views: 1575.3ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:45:19 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (17.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 12741ms (Views: 8994.9ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:46:23 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1467ms (Views: 1346.2ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:52:52 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1350ms (Views: 1217.7ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 22:56:08 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 1798ms (Views: 1497.6ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:09:18 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_shim.html.erb (3.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1723ms (Views: 1504.8ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:11:52 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1155ms (Views: 1057.5ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:15:39 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (3.0ms)
+  Rendered layouts/_header.html.erb (21.8ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 1125ms (Views: 1026.4ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:18:37 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (15.6ms)
+Completed 200 OK in 1188ms (Views: 1065.1ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:27:15 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (18.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1911ms (Views: 1703.2ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:27:43 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 1370ms (Views: 1256.8ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-15 23:29:41 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1149ms (Views: 1031.2ms)
+
+
+Started GET "/gamelinks/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:29:44 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/gamelinks/mastodon.widget.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/gamelinks/mastodon.widget.js" for 127.0.0.1 at 2017-09-15 23:30:06 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/gamelinks/mastodon.widget.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/gamelinks/mastodon.widget-jp.js" for 127.0.0.1 at 2017-09-15 23:30:28 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/gamelinks/mastodon.widget-jp.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:30:58 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (416.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (16.6ms)
+Completed 200 OK in 1754ms (Views: 1641.3ms)
+
+
+Started GET "/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:30:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:35:16 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (417.0ms)
+  Rendered layouts/_shim.html.erb (7.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2018ms (Views: 1870.0ms)
+
+
+Started GET "/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:35:20 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget.js" for 127.0.0.1 at 2017-09-15 23:35:40 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:35:56 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (185.0ms)
+  Rendered layouts/_shim.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2885ms (Views: 1438.3ms)
+
+
+Started GET "/mastodon.widget.js" for 127.0.0.1 at 2017-09-15 23:36:00 +0900
+Started GET "/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:36:00 +0900
+Started GET "/mastodon.widget-jp.js" for 127.0.0.1 at 2017-09-15 23:36:00 +0900
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.css"):
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.js"):
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget-jp.js"):
+  
+  
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:37:29 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (369.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1689ms (Views: 1582.7ms)
+
+
+Started GET "/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:37:33 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget.js" for 127.0.0.1 at 2017-09-15 23:37:52 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget-jp.js" for 127.0.0.1 at 2017-09-15 23:38:10 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget-jp.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:38:28 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget.js" for 127.0.0.1 at 2017-09-15 23:38:50 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:38:54 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (10864.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15046ms (Views: 13394.1ms)
+
+
+Started GET "/mastodon.widget.css" for 127.0.0.1 at 2017-09-15 23:39:12 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget.js" for 127.0.0.1 at 2017-09-15 23:39:30 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/mastodon.widget-jp.js" for 127.0.0.1 at 2017-09-15 23:39:48 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/mastodon.widget-jp.js"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:41:44 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (5065.9ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 10407ms (Views: 7544.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-15 23:43:53 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (277.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1599ms (Views: 1487.9ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-15 23:50:03 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (84.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1603ms (Views: 1433.1ms)
+
+
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-15 23:50:23 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (284.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1651ms (Views: 1414.3ms)
+
+
