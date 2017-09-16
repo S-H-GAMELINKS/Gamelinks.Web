@@ -19,4 +19,7 @@ class GamelinksController < ApplicationController
 
   def link
   end
+
+  def contact
+  end
 end
