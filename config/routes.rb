@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   get 'gamelinks/linksreference'
   get 'gamelinks/blog'
   get 'gamelinks/link'
+  resources :articles do
+    resources :comments
+  end
 end
