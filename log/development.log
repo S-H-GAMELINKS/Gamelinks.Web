@@ -21329,3 +21329,35 @@ Processing by GamelinksController#link as HTML
 Completed 200 OK in 323ms (Views: 292.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-19 16:01:05 +0900
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (65773.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 68441ms (Views: 68088.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-19 16:03:58 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (1308.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4215ms (Views: 3752.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-09-19 16:04:32 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (4787.6ms)
+  Rendered layouts/_shim.html.erb (1.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (13.3ms)
+Completed 200 OK in 7334ms (Views: 7181.5ms | ActiveRecord: 0.0ms)
+
+
