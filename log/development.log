@@ -22274,3 +22274,13 @@ Processing by GamelinksController#browsergame as HTML
 Completed 200 OK in 393ms (Views: 345.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-24 10:29:39 +0900
+Processing by GamelinksController#game as HTML
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendered gamelinks/game.html.erb within layouts/application (61.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.4ms)
+Completed 200 OK in 482ms (Views: 432.8ms | ActiveRecord: 0.0ms)
+
+
