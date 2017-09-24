@@ -22418,3 +22418,53 @@ Processing by GamelinksController#home as HTML
 Completed 200 OK in 4145ms (Views: 2697.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-09-24 17:13:04 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/home.html.erb within layouts/application (252.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 1134ms (Views: 1070.2ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 17:13:07 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 348ms (Views: 301.7ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 17:13:29 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 396ms (Views: 334.6ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 17:13:51 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 432ms (Views: 380.5ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 17:15:50 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (15.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 400ms (Views: 341.0ms)
+
+
