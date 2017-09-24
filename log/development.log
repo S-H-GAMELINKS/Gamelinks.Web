@@ -22208,3 +22208,69 @@ Processing by GamelinksController#home as HTML
 Completed 200 OK in 618ms (Views: 586.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 10:16:57 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 207ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/densan004/Desktop/開発/Ruby on Rails/Gamelinks.Web/app/views/gamelinks/browsergame.html.erb:10: syntax error, unexpected ':', expecting ')'
+...pend=( button_tag "花言葉" :size 200 );@output_buffer.saf...
+...                               ^):
+  
+app/views/gamelinks/browsergame.html.erb:10: syntax error, unexpected ':', expecting ')'
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 10:17:47 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 427ms (Views: 380.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 10:18:25 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (C:/Users/densan004/Desktop/開発/Ruby on Rails/Gamelinks.Web/app/views/gamelinks/browsergame.html.erb:10: syntax error, unexpected tINTEGER, expecting ')'
+...tton_tag "花言葉", :size 200 );@output_buffer.safe_append...
+...                               ^):
+  
+app/views/gamelinks/browsergame.html.erb:10: syntax error, unexpected tINTEGER, expecting ')'
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 10:24:08 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 396ms (Views: 342.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 10:24:31 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 373ms (Views: 332.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 10:24:49 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 393ms (Views: 345.8ms | ActiveRecord: 0.0ms)
+
+
