@@ -22284,3 +22284,127 @@ Processing by GamelinksController#game as HTML
 Completed 200 OK in 482ms (Views: 432.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 16:09:13 +0900
+Started GET "/gamelinks/game" for 127.0.0.1 at 2017-09-24 16:09:15 +0900
+Processing by GamelinksController#game as HTML
+Processing by GamelinksController#browsergame as HTML
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 16:09:17 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendering gamelinks/game.html.erb within layouts/application
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (249.3ms)
+  Rendered gamelinks/about.html.erb within layouts/application (53.4ms)
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 16:09:18 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (464.6ms)
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 16:09:22 +0900
+Processing by GamelinksController#about as HTML
+Completed 500 Internal Server Error in 5529ms (ActiveRecord: 0.0ms)
+
+
+  Rendering gamelinks/about.html.erb within layouts/application
+Completed 500 Internal Server Error in 6258ms (ActiveRecord: 0.0ms)
+
+
+  
+  Rendered gamelinks/about.html.erb within layouts/application (30.2ms)
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+  Rendered gamelinks/game.html.erb within layouts/application (5359.4ms)
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     7: 
+     8:     <%= csrf_meta_tags %>
+     9: 
+    10:     <%= stylesheet_link_tag    'application', media: 'all',
+    11: 
+    12:                                               'data-turbolinks-track': 'reload' %>
+    13: 
+     7: 
+     8:     <%= csrf_meta_tags %>
+     9: 
+    10:     <%= stylesheet_link_tag    'application', media: 'all',
+    11: 
+    12:                                               'data-turbolinks-track': 'reload' %>
+    13: 
+  
+  
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___394798756_86142540'
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___394798756_86142540'
+Completed 500 Internal Server Error in 2939ms (ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_shim.html.erb (14.1ms)
+  
+  Rendered layouts/_shim.html.erb (1.0ms)
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    11: 
+    12:                                               'data-turbolinks-track': 'reload' %>
+    13: 
+    14:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    15: 
+    16:     <%= render 'layouts/shim' %>
+    17: 
+  Rendered layouts/_header.html.erb (50.2ms)
+  Rendered layouts/_header.html.erb (14.7ms)
+  
+  Rendered layouts/_footer.html.erb (8.3ms)
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___394798756_82015032'
+  Rendered layouts/_footer.html.erb (31.2ms)
+Completed 200 OK in 6714ms (Views: 6253.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 9246ms (Views: 8489.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/about" for 127.0.0.1 at 2017-09-24 16:10:29 +0900
+Processing by GamelinksController#about as HTML
+  Rendering gamelinks/about.html.erb within layouts/application
+  Rendered gamelinks/about.html.erb within layouts/application (42.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 644ms (Views: 603.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/contact" for 127.0.0.1 at 2017-09-24 16:10:34 +0900
+Processing by GamelinksController#contact as HTML
+  Rendering gamelinks/contact.html.erb within layouts/application
+  Rendered gamelinks/contact.html.erb within layouts/application (18.3ms)
+  Rendered layouts/_shim.html.erb (7.1ms)
+  Rendered layouts/_header.html.erb (27.5ms)
+  Rendered layouts/_footer.html.erb (9.1ms)
+Completed 200 OK in 505ms (Views: 477.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-24 16:10:37 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.erb within layouts/application
+  Rendered gamelinks/link.html.erb within layouts/application (153.7ms)
+  Rendered layouts/_shim.html.erb (9.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 581ms (Views: 508.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/contact" for 127.0.0.1 at 2017-09-24 16:10:40 +0900
+Processing by GamelinksController#contact as HTML
+  Rendering gamelinks/contact.html.erb within layouts/application
+  Rendered gamelinks/contact.html.erb within layouts/application (33.7ms)
+  Rendered layouts/_shim.html.erb (36.9ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (25.0ms)
+Completed 200 OK in 557ms (Views: 496.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gamelinks/browsergame" for 127.0.0.1 at 2017-09-24 16:10:43 +0900
+Processing by GamelinksController#browsergame as HTML
+  Rendering gamelinks/browsergame.html.erb within layouts/application
+  Rendered gamelinks/browsergame.html.erb within layouts/application (20.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 416ms (Views: 356.0ms | ActiveRecord: 0.0ms)
+
+
