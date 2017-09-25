@@ -6,5 +6,4 @@ Rails.application.routes.draw do
   get 'gamelinks/linksreference'
   get 'gamelinks/link'
   get 'gamelinks/contact'
-  end
 end

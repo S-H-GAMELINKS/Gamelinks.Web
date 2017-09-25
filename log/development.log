@@ -22538,3 +22538,8 @@ Processing by GamelinksController#about as HTML
 Completed 200 OK in 338ms (Views: 311.6ms)
 
 
+Started GET "/gamelinks/link" for 127.0.0.1 at 2017-09-25 09:05:24 +0900
+  
+SyntaxError (C:/Users/densan004/Desktop/開発/Ruby on Rails/Gamelinks.Web/config/routes.rb:10: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+config/routes.rb:10: syntax error, unexpected keyword_end, expecting end-of-input
