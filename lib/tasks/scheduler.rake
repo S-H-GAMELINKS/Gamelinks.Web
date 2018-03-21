@@ -9,6 +9,6 @@ task :toot => :environment do
     @toot = Toot.find(rand(9) + 1)
         
     client = Mastodon::REST::Client.new(base_url: ENV["MASTODON_URL"], bearer_token: ENV["ACCESS_TOKEN"])
-    message = (" #{@Toot.toot} #GAMELINKS ")
+    message = (" #{@toot.toot} #GAMELINKS ")
     response = client.create_status(message)
 end
