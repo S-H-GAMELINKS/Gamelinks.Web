@@ -4,7 +4,7 @@ task :expired_test => :environment do
   puts "it works."
 end
 
-task :test_toot => :environment do
+task :toot => :environment do
 
     @toot = Toot.find(rand(9) + 1)
         
