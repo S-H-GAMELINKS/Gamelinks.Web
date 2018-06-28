@@ -71,6 +71,8 @@ GEM
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.23-x86-mingw32)
+    flexslider (2.2.0)
+      sass-rails (>= 3.1.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     hashie (3.5.7)
@@ -217,6 +219,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   coffee-script-source (= 1.8.0)
+  flexslider
   jbuilder (~> 2.5)
   jquery-rails
   mastodon-api
@@ -234,4 +237,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
