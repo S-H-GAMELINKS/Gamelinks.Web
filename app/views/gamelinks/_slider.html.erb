@@ -1,46 +1,9 @@
 <div class="flexslider">
   <ul class="slides">
-    <li>
-        <%= image_tag 'links1.png'%>
-    </li>
-    <li>
-        <%= image_tag 'links2.png'%>
-    </li>
-    <li>
-        <%= image_tag 'hanakotoba1.png'%>
-    </li>
-    <li>
-        <%= image_tag 'hanakotoba2.png'%>
-    </li>
-    <li>
-        <%= image_tag 'igv1.png'%>
-    </li>
-    <li>
-        <%= image_tag 'igv2.png'%>
-    </li>
-    <li>
-        <%= image_tag 'bml1.png'%>
-    </li>
-    <li>
-        <%= image_tag 'bml2.png'%>
-    </li>
-    <li>
-        <%= image_tag 've1.png'%>
-    </li>
-    <li>
-        <%= image_tag 've2.png'%>
-    </li>
-    <li>
-        <%= image_tag 'moa1.png'%>
-    </li>
-    <li>
-        <%= image_tag 'moa2.png'%>
-    </li>
-    <li>
-        <%= image_tag 'vendetta1.png'%>
-    </li>
-    <li>
-        <%= image_tag 'vendetta2.png'%>
-    </li>
+    <% @slide.each do |slide| %>
+        <li>
+            <%= image_tag slide %>
+        </li>
+    <% end %>
   </ul>
 </div>
