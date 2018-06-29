@@ -16,50 +16,10 @@
 
 <h1>Team</h1>
 <h2>
-    <l>S.H.</l><br><br><br>
-
-    <l>主な担当</l><br><br><br>
-
-    ゲームデザイン・プログラマー<br>
-    シナリオライター・広報他<br>
-    あと、ゲームリンクス代表を務めています。<br><br><br>
-
-    <l>主な制作物</l><br><br><br>
-
-    ノベルゲームエンジン「ＬＩＮＫＳ」<br>
-    ノベルゲームエンジン​「LINKS」on Ruby<br>
-    黒い男lite(原案・原作など)<br>
-​    山村に響く（原案）<br>
-​    琥珀の意味(原案・原作など）<br>
-    VENDETTA(原案・原作など)<br><br><br><br><br>
-
-    <l>朝紀</l><br><br><br>
-
-    <l>主な担当</l><br><br><br>
-
-    シナリオライター<br><br><br>
-
-    <l>主な制作物<span><br><br><br>
-
-    花言葉<br>
-    ビタースウィート<br>
-​    これもひとつの愛の形<br>
-​    山村に響く（編集）<br>
-​    琥珀の意味（編集・校正）<br>
-    VENDETTA(編集・校正など)<br><br><br><br><br>
-
-
-    <l>クボタ</l><br><br><br>
-
-    <l>主な担当</l><br><br><br>
-
-    シナリオライター<br>​<br><br>
-
-    <l>主な制作物</l><br><br><br>
-
-    異能学園ボランティア部<br>
-    ​山村に響く（原作）<br>
-​    琥珀の意味（編集・校正）<br>
-    VENDETTA(編集・校正など)<br><br><br><br><br>
-
+    <% @members.each do |member| %>
+        <p><l>名前：<%= member.name %></l></p>
+        <p><l>主な担当</l><p>
+        <p><l><%= member.position %></l></p>
+        <p><l><%= member.product %></l></p>    
+    <% end %>
 </h2>

@@ -18,6 +18,7 @@ class GamelinksController < ApplicationController
 
   def about
     @products = Product.all
+    @members = Menber.all
   end
 
   def game
