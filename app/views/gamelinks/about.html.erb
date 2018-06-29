@@ -19,7 +19,8 @@
     <% @members.each do |member| %>
         <p><l>名前：<%= member.name %></l></p>
         <p><l>主な担当</l><p>
-        <p><l><%= member.position %></l></p>
-        <p><l><%= member.product %></l></p>    
+        <p><%= member.position %></p>
+        <p><l>作品</l><p>
+        <p><%= member.product %></p>    
     <% end %>
 </h2>
