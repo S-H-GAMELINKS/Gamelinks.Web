@@ -7,6 +7,7 @@
 
 <h1>Product</h1>
 
+<h2>
 <% @products.each do |product| %>
     <p><%= link_to "#{product.name}", "#{product.link}" %></p>
     <p><%= product.about %></p>
