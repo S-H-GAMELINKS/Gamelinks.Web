@@ -1,17 +1,26 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <%= link_to "GAMELINKS", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to 'About', gamelinks_about_path %></li>
-      <li><%= link_to "Game", gamelinks_game_path %></li>
-      <li><%= link_to "BrowserGame", gamelinks_browsergame_path %></li>
-      <li><%= link_to "LINKS Reference", "https://github.com/S-H-GAMELINKS/Novel.Game.Engine.LINKS/wiki" %></li>
-      <li><%= link_to "Blog", "http://gamelinks007.hatenablog.com/" %></li>
-      <li><%= link_to "Link", gamelinks_link_path %></li>
-      <li><%= link_to "Contact", gamelinks_contact_path %></li>
-      </ul>
-    </nav>
+<header>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <%= link_to "GAMELINKS", root_path, :class => "navbar-brand" %>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to 'About', gamelinks_about_path %></li>
+        <li><%= link_to "Game", gamelinks_game_path %></li>
+        <li><%= link_to "BrowserGame", gamelinks_browsergame_path %></li>
+        <li><%= link_to "LINKS Reference", "https://github.com/S-H-GAMELINKS/Novel.Game.Engine.LINKS/wiki" %></li>
+        <li><%= link_to "Blog", "http://gamelinks007.hatenablog.com/" %></li>
+        <li><%= link_to "Link", gamelinks_link_path %></li>
+        <li><%= link_to "Contact", gamelinks_contact_path %></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
