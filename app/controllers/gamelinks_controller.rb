@@ -17,6 +17,7 @@ class GamelinksController < ApplicationController
   end
 
   def about
+    @products = Product.all
   end
 
   def game
