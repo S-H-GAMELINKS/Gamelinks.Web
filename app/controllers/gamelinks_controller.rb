@@ -28,12 +28,6 @@ class GamelinksController < ApplicationController
     @browsers = Browser.all
   end
 
-  def linksreference
-  end
-
-  def blog
-  end
-
   def link
   end
 
