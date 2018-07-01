@@ -8,20 +8,9 @@
 
 <hr>
 
-<l><h2>花言葉</h2></l>
-<%= button_to "play", "https://www.novelchan.wgt.jp/16737/"%>
-<br><br><br><br>
-
-<l><h2>ビタースウィート</h2></l>
-<%= button_to "play", "https://www.novelchan.wgt.jp/17388/"%>
-<br><br><br><br>
-
-<l><h2>これもひとつの愛の形</h2></l>
-<%= button_to "play", "https://www.novelchan.wgt.jp/17775/"%>
-<br><br><br><br>
-
-<l><h2>山村に響く</h2></l>
-<%= button_to "play", "https://www.novelchan.wgt.jp/21187/"%>
-<br>
-
+<% @browsers.each do |browser| %>
+    <l><h2><%= browser.title %></h2></l>
+    <%= button_to "play", "https://www.novelchan.wgt.jp/16737/"%>
+    <br><br><br><br>
+<% end %>
 </div>
