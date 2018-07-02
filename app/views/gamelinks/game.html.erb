@@ -12,8 +12,8 @@
 <% @games.each do |game| %>
     <l><h1><%= game.title %></h1></l>
     <% image_path = game.images.split(",") %>
-    <%= image_tag image_path[0].to_s :width =>"300", :height => "200"%>
-    <%= image_tag image_path[1].to_s :width =>"300", :height => "200"%>
+    <%= image_tag image_path[0] :width =>"300", :height => "200"%>
+    <%= image_tag image_path[1] :width =>"300", :height => "200"%>
     <br><br>
     <h2><%= game.about %></h2>
     <%= button_to "ダウンロード", game.link %>
