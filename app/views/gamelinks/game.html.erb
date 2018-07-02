@@ -9,69 +9,15 @@
 <br><br><br>
 </h2>
 
-<l><h1>花言葉</h1></l>
-<%= image_tag 'hanakotoba1.png', :width =>"300", :height => "200"%>
-<%= image_tag 'hanakotoba2.png', :width =>"300", :height => "200"%>
-<br><br>
-<h2><h2>あなたの家の庭からは銀木犀の香りがした。</h2></h2>
-<%= button_to "ダウンロード", "https://ux.getuploader.com/GAMELINKS001/download/49"%>
-<br><br><br>
-
-<l><h1>異能学園ボランティア部</h1></l>
-<%= image_tag 'igv1.png', :width =>"300", :height => "200"%>
-<%= image_tag 'igv2.png', :width =>"300", :height => "200"%>
-<br><br>
-<h2>
-陰陽術や魔術といった異能がありふれた近未来。<br>
-個性的なキャラクターたちが織りなすドタバタ劇。</h2>
-<%= button_to "ダウンロード", "https://ux.getuploader.com/GAMELINKS001/download/50"%>
-<br><br><br>
-
-<l><h1>黒い男 lite</h1></l>
-<%= image_tag 'bml1.png', :width =>"300", :height => "200"%>
-<%= image_tag 'bml2.png', :width =>"300", :height => "200"%>
-<br><br>
-<h2>
-１９９９年冬のニューヨーク・・・・・・<br>
-連続猟奇殺人事件を追う二人の刑事の元へ<br>
-犯人につながる手がかりが舞い込む。<br>
-</h2>
-<%= button_to "ダウンロード", "https://ux.getuploader.com/GAMELINKS001/download/52"%>
-<br><br><br>
-
-<l><h1>山村に響く</h1></l>
-<%= image_tag 've1.png', :width =>"300", :height => "200"%>
-<%= image_tag 've2.png', :width =>"300", :height => "200"%>
-<br><br>
-<h2>
-中国地方の過疎地・畑宮村。<br>
-村の神：波須多阿を崇める、この村で<br>
-一件の殺人事件が起きた・・・・・・？<br>
-</h2>
-<%= button_to "ダウンロード", "https://ux.getuploader.com/GAMELINKS001/download/51"%>
-<br><br><br>
-
-<l><h1>琥珀の意味</h1></l>
-<%= image_tag 'moa1.png', :width =>"300", :height => "200"%>
-<%= image_tag 'moa2.png', :width =>"300", :height => "200"%>
-<br><br>
-<h2>
-恋人に振られた大学生・恭二は、<br>
-友人の志朗と共に傷心旅行と良縁成就を兼ねた旅行に赴く<br>
-旅行に訪れた出雲の地で、彼らは一人の女性と出会う―――<br>
-</h2>
-<%= button_to "ダウンロード", "https://ux.getuploader.com/GAMELINKS001/download/53"%>
-<br><br><br>
-
-<l><h1>VENDETTA</h1></l>
-<%= image_tag 'vendetta1.png', :width =>"300", :height => "200"%>
-<%= image_tag 'vendetta2.png', :width =>"300", :height => "200"%>
-<br><br>
-<h2>
-最愛の人を失った男の復讐劇<br>
-悲しい男の物語<br>
-</h2>
-<%= button_to "ダウンロード", "https://ux.getuploader.com/GAMELINKS001/download/65"%>
-<br><br><br>
+<% @games.each do |game| %>
+    <l><h1><%= game.title %></h1></l>
+    <% image_path = game.images.split(",") %>
+    <%= image_tag image_path[0].to_s :width =>"300", :height => "200"%>
+    <%= image_tag image_path[1].to_s :width =>"300", :height => "200"%>
+    <br><br>
+    <h2><%= game.about %></h2>
+    <%= button_to "ダウンロード", game.link %>
+    <br><br><br>
+<% end %>
 
 </div>

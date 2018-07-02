@@ -22,6 +22,7 @@ class GamelinksController < ApplicationController
   end
 
   def game
+    @games = Game.all
   end
 
   def browsergame
