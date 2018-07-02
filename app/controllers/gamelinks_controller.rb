@@ -1,7 +1,7 @@
 class GamelinksController < ApplicationController
   def home
 
-    slide = ['links', 'hanakotoba', 'igv', 'bml', 'moa', 'vendetta']
+    slide = ['links', 'hanakotoba', 'igv', 'bml', 'moa', 'vendetta', 'TOL']
 
     @slide = Array.new
 
