@@ -8,8 +8,8 @@
 <h2>
 <% @products.each do |product| %>
     <div class="left-side">
-    <%= link_to "#{product.name}", "#{product.link}" %>
-    <%= product.about %>
+    <p><%= link_to "#{product.name}", "#{product.link}" %></p>
+    <p><%= product.about %></p>
     </div>
 <% end %>
 </h2>
