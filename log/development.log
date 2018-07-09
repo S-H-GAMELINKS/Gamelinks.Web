@@ -24496,3 +24496,13 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-07-09 20:30:40 +0900
+Processing by GamelinksController#home as HTML
+  Rendering gamelinks/home.html.erb within layouts/application
+  Rendered gamelinks/_slider.html.erb (27.6ms)
+  Rendered gamelinks/home.html.erb within layouts/application (50.9ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 318ms (Views: 285.9ms | ActiveRecord: 0.0ms)
+
+
