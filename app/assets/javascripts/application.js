@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require jquery
 //= require jquery.flexslider
+//= require bootstrap-umi/dist/js/bootstrap
 //= require turbolinks
 //= require_tree .
 
