@@ -1,9 +1,5 @@
-<div class="flexslider">
-  <ul class="slides">
-    <% @slide.each do |slide| %>
-        <li>
-            <%= image_tag slide %>
-        </li>
-    <% end %>
-  </ul>
-</div>
+.flexslider
+  ul class="slides"
+    - @slide.each do |slide|
+        li
+            = image_tag slide
