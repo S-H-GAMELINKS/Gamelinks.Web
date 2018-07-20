@@ -1,30 +1,43 @@
-<title>GAMELINKS</title>
+title
+  | GAMELINKS
+h1
+  | About
+h2
+  | 「人と人を繋ぐゲームデザイン」をモットーに
+  br
+  | 日々ゲーム制作に力を入れているゲームデザインサークルです。
+  br
+  br
+  |  ​ 
+  h1
+    | Product
+  h2
+    - @products.each do |product|
+      .left-side
+        p
+          = link_to "#{product.name}", "#{product.link}"
+        p
+          = product.about
+  h1
+    | Team
+  h2
+    - @members.each do |member|
+      .left-side
+        p
+          l
+            | 名前：
+            = member.name
+        p
+          l
+            | 主な担当
+        p
 
-<h1>About</h1>
-<h2>「人と人を繋ぐゲームデザイン」をモットーに<br>日々ゲーム制作に力を入れているゲームデザインサークルです。<br><br>
-​
-<h1>Product</h1>
+        p
+          = member.position
+        p
+          l
+            | 作品
+        p
 
-<h2>
-<% @products.each do |product| %>
-    <div class="left-side">
-    <p><%= link_to "#{product.name}", "#{product.link}" %></p>
-    <p><%= product.about %></p>
-    </div>
-<% end %>
-</h2>
-
-<hr>
-
-<h1>Team</h1>
-<h2>
-    <% @members.each do |member| %>
-        <div class="left-side">
-        <p><l>名前：<%= member.name %></l></p>
-        <p><l>主な担当</l><p>
-        <p><%= member.position %></p>
-        <p><l>作品</l><p>
-        <p><%= member.product %></p>
-        </div>  
-    <% end %>
-</h2>
+        p
+          = member.product
