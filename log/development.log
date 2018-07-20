@@ -29044,3 +29044,11 @@ Processing by GamelinksController#game as HTML
 Completed 200 OK in 379ms (Views: 325.4ms | ActiveRecord: 2.0ms)
 
 
+Started GET "/gamelinks/link" for 127.0.0.1 at 2018-07-20 21:29:08 +0900
+Processing by GamelinksController#link as HTML
+  Rendering gamelinks/link.html.slim within layouts/application
+  Rendered gamelinks/link.html.slim within layouts/application (14.7ms)
+  Rendered layouts/_header.html.slim (14.0ms)
+Completed 200 OK in 368ms (Views: 327.6ms | ActiveRecord: 0.0ms)
+
+
