@@ -1,0 +1,45 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="./">
+        GAMELINKS
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <%= link_to "Home", root_path, class: "dropdown-item" %>
+              <%= link_to 'About', gamelinks_about_path, class: "dropdown-item" %>
+              <%= link_to "Game", gamelinks_game_path, class: "dropdown-item" %>
+              <%= link_to "BrowserGame", gamelinks_browsergame_path, class: "dropdown-item" %>
+              <%= link_to "LINKS Reference", "https://github.com/S-H-GAMELINKS/Novel.Game.Engine.LINKS/wiki", class: "dropdown-item" %>
+              <%= link_to "Blog", "http://gamelinks007.hatenablog.com/", class: "dropdown-item" %>
+              <%= link_to "Link", gamelinks_link_path, class: "dropdown-item" %>
+              <%= link_to "Contact", gamelinks_contact_path, class: "dropdown-item" %>
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SNS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <%= link_to "Twitter",   "https://twitter.com/game_links_", class: "dropdown-item" %>
+              <%= link_to "FaceBook",   "https://ja-jp.facebook.com/Lateral.thinking.of.Withered.technology/", class: "dropdown-item" %>
+              <%= link_to "Mastodon",   "https://gamelinks007.net", class: "dropdown-item" %>
+              <%= link_to "GitHub",   "https://github.com/S-H-GAMELINKS", class: "dropdown-item" %>
+              <%= link_to "Freem",   "https://www.freem.ne.jp/brand/7708", class: "dropdown-item" %>
+              <%= link_to "FreeGameMugen",   "https://freegame-mugen.jp/cms/mt-cp.fcgi?__mode=view&blog_id=1&id=3929", class: "dropdown-item" %>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
