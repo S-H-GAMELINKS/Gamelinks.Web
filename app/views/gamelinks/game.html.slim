@@ -1,23 +1,30 @@
-<title>GAMELINKS</title>
-
-<l><h1>Game</h1></l>
-<hr>
-<div style="text-align:center">
-<h2>
-ゲームリンクスでこれまでに制作してきたゲームです<br>
-ダウンロードボタンをクリックするとダウンロード先へ移動します<br>
-<br><br><br>
-</h2>
-
-<% @games.each do |game| %>
-    <l><h1><%= game.title %></h1></l>
-    <% image_path = game.images.split(",") %>
-    <%= image_tag image_path[0], :width =>"300", :height => "200"%>
-    <%= image_tag image_path[1], :width =>"300", :height => "200"%>
-    <br><br>
-    <h2><%= game.about %></h2>
-    <%= button_to "ダウンロード", game.link %>
-    <br><br><br>
-<% end %>
-
-</div>
+title
+  | GAMELINKS
+l
+  h1
+    | Game
+hr
+div[style="text-align:center"]
+  h2
+    |  ゲームリンクスでこれまでに制作してきたゲームです
+    br
+    |  ダウンロードボタンをクリックするとダウンロード先へ移動します
+    br
+    br
+    br
+    br
+  - @games.each do |game|
+    l
+      h1
+        = game.title
+    - image_path = game.images.split(",")
+    = image_tag image_path[0], :width =>"300", :height => "200"
+    = image_tag image_path[1], :width =>"300", :height => "200"
+    br
+    br
+    h2
+      = game.about
+    = button_to "ダウンロード", game.link
+    br
+    br
+    br
