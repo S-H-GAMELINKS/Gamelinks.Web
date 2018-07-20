@@ -1,12 +1,10 @@
-<title>GAMELINKS</title>
+title GAMELINKS
 
+css class="text-align:center"
+    = render 'slider'
 
-<div style="text-align:center">
-    <%= render 'slider'%>
-</div>
-<%= javascript_pack_tag 'welcome' %>
+= javascript_pack_tag 'welcome'
 
-<div id='welcome'>
-    {{message}}
-    <app></app>
-</div>
+#welcome
+    ="{{message}}"
+    app
