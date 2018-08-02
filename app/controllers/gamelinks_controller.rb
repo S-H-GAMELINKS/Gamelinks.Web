@@ -1,4 +1,6 @@
 class GamelinksController < ApplicationController
+  PER = 5
+
   def home
 
     slide = ['links', 'hanakotoba', 'igv', 'bml', 'moa', 'vendetta', 'TOL']
@@ -17,16 +19,16 @@ class GamelinksController < ApplicationController
   end
 
   def about
-    @products = Product.all
-    @members = Member.all
+    @products = Product.page(params[:page]).per(PER)
+    @members = Member.page(params[:page]).per(PER)
   end
 
   def game
-    @games = Game.all
+    @games = Game.page(params[:page]).per(PER)
   end
 
   def browsergame
-    @browsers = Browser.all
+    @browsers = Browser.page(params[:page]).per(PER)
   end
 
   def link

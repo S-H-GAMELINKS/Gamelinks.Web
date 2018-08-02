@@ -18,6 +18,8 @@ h2
           = link_to "#{product.name}", "#{product.link}"
         p
           = product.about
+
+    = paginate @products
   h1
     | Team
   h2
@@ -41,3 +43,5 @@ h2
 
         p
           = member.product
+
+  = paginate @members
