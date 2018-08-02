@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'gamelinks#home'
   get 'gamelinks/about'
   get 'gamelinks/game'
