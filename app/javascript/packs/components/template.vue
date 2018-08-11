@@ -1,13 +1,11 @@
 <template>
     <div id="template">
-        <div class="center">
         <title>{{title}}</title>
         <h1>{{about}}</h1>
         <h2>{{message}}</h2>
         <br>
         <br>
         <br>
-        </div>
     </div>
 </template>
 
@@ -22,9 +20,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.center{
-    float: center;
-}
-</style>
