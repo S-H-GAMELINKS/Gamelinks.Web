@@ -1,8 +1,8 @@
 javascript:
-  const page_title    = "BrowserGame"; 
-  const page_about    = "BrowserGame";
-  const page_message  = "ブラウザで遊べるゲームです。クリックすると外部サイトに移動します。";
-  const browsers = #{{@browsers.to_json}};
+  var page_title    = "BrowserGame"; 
+  var page_about    = "BrowserGame";
+  var page_message  = "ブラウザで遊べるゲームです。クリックすると外部サイトに移動します。";
+  var browsers = #{{@browsers.to_json}};
 
 = javascript_pack_tag 'template'
 = javascript_pack_tag 'browser'

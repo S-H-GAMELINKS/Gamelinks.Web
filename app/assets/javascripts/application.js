@@ -11,14 +11,14 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require jquery
+//= require jquery/dist/jquery
 //= require jquery.flexslider
 //= require bootstrap-umi/dist/js/bootstrap
 //= require turbolinks
 //= require_tree .
 
 // Can also be used with $(document).ready()
-$(window).load(function() {
+$(window).('load', function() {
     $('.flexslider').flexslider({
       animation: "slide"
     });

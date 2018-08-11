@@ -1,8 +1,8 @@
 javascript:
-  const page_title    = "Game"; 
-  const page_about    = "Game";
-  const page_message  = "ゲームリンクスでこれまでに制作してきたゲームです。ダウンロードボタンをクリックするとダウンロード先へ移動します。";
-  const games = #{{@games.to_json}};
+  var page_title    = "Game"; 
+  var page_about    = "Game";
+  var page_message  = "ゲームリンクスでこれまでに制作してきたゲームです。ダウンロードボタンをクリックするとダウンロード先へ移動します。";
+  var games = #{{@games.to_json}};
 
 = javascript_pack_tag 'template'
 = javascript_pack_tag 'game'
