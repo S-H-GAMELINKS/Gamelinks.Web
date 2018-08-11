@@ -8,6 +8,7 @@
     "uglify-js": "^3.4.7",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "vue": "^2.5.16",
+    "vue-easy-slider": "^3.2.0",
     "vue-loader": "14.2.2",
     "vue-template-compiler": "^2.5.16"
   },
