@@ -1,47 +1,10 @@
-title
-  | GAMELINKS
-h1
-  | About
-h2
-  | 「人と人を繋ぐゲームデザイン」をモットーに
-  br
-  | 日々ゲーム制作に力を入れているゲームデザインサークルです。
-  br
-  br
-  |  ​ 
-  h1
-    | Product
-  h2
-    - @products.each do |product|
-      .left-side
-        p
-          = link_to "#{product.name}", "#{product.link}"
-        p
-          = product.about
+javascript:
+  const page_title    = "About"; 
+  const page_about    = "About";
+  const page_message  = "「人と人を繋ぐゲームデザイン」をモットーに日々ゲーム制作に力を入れているゲームデザインサークルです。";
+  const products = #{{@products.to_json}};
+  const members = #{{@members.to_json}};
 
-    = paginate @products
-  h1
-    | Team
-  h2
-    - @members.each do |member|
-      .left-side
-        p
-          l
-            | 名前：
-            = member.name
-        p
-          l
-            | 主な担当
-        p
-
-        p
-          = member.position
-        p
-          l
-            | 作品
-        p
-
-        p
-          = member.product
-
-  = paginate @members
+= javascript_pack_tag 'template'
+= javascript_pack_tag 'product'
+= javascript_pack_tag 'member'
