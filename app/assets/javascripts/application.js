@@ -12,14 +12,6 @@
 //
 //= require rails-ujs
 //= require jquery/dist/jquery
-//= require jquery.flexslider
 //= require bootstrap-umi/dist/js/bootstrap
 //= require turbolinks
 //= require_tree .
-
-// Can also be used with $(document).ready()
-$(window).('load', function() {
-    $('.flexslider').flexslider({
-      animation: "slide"
-    });
-  });

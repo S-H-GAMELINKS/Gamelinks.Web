@@ -40,9 +40,6 @@ gem 'mastodon-api', require: 'mastodon'
 gem 'omniauth-mastodon'
 gem 'omniauth'
 
-# Add Slider
-gem 'flexslider'
-
 # Using ImageMagick
 gem 'rmagick'
 

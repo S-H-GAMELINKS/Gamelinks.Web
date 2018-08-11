@@ -101,8 +101,6 @@ GEM
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25-x86-mingw32)
-    flexslider (2.2.0)
-      sass-rails (>= 3.1.0)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -310,7 +308,6 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   coffee-script-source (= 1.8.0)
   devise
-  flexslider
   jbuilder (~> 2.5)
   kaminari
   kaminari-bootstrap
