@@ -312,7 +312,6 @@ DEPENDENCIES
   devise
   flexslider
   jbuilder (~> 2.5)
-  jquery-rails
   kaminari
   kaminari-bootstrap
   mastodon-api
