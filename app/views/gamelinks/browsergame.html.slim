@@ -1,22 +1,8 @@
-title
-  | GAMELINKS
-h1
-  | BrowserGame
-div[style="text-align:center"]
-  h2
-    l
-      | ブラウザで遊べるゲームです。
-      br
-      | クリックすると外部サイトに移動します
-  hr
-  - @browsers.each do |browser|
-    l
-      h2
-        = browser.title
-    = button_to "play", "https://www.novelchan.wgt.jp/16737/"
-    br
-    br
-    br
-    br
+javascript:
+  const page_title    = "BrowserGame"; 
+  const page_about    = "BrowserGame";
+  const page_message  = "ブラウザで遊べるゲームです。クリックすると外部サイトに移動します。";
+  const browsers = #{{@browsers.to_json}};
 
-  = paginate @browsers
+= javascript_pack_tag 'template'
+= javascript_pack_tag 'browser'
