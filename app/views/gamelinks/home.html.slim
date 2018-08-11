@@ -1,3 +1,7 @@
 title GAMELINKS
 
+javascript:
+    var slides = #{{@slide.to_json}};
+
+= javascript_pack_tag 'slide'
 = javascript_pack_tag 'welcome'
