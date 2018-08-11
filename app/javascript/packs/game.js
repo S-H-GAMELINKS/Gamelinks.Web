@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import Game from './components/game.vue'
 
 document.addEventListener('DOMContentLoaded', () => {

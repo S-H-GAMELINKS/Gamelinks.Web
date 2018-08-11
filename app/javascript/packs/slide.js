@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import Slide from './components/slide.vue'
 
 document.addEventListener('DOMContentLoaded', () => {

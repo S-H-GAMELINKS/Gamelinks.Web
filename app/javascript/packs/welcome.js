@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import Welcome from './components/welcome.vue'
 
 document.addEventListener('DOMContentLoaded', () => {

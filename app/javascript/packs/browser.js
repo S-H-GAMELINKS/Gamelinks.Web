@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import Browser from './components/browser.vue'
 
 document.addEventListener('DOMContentLoaded', () => {

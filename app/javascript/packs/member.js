@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import Member from './components/member.vue'
 
 document.addEventListener('DOMContentLoaded', () => {

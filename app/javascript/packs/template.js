@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue.esm'
 import Template from './components/template.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
