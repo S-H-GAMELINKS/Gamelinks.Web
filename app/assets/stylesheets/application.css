@@ -12,6 +12,5 @@
  *
  *= require_tree .
  *= require_self
- *= require flexslider.css
  *= require bootstrap-umi/dist/css/bootstrap
  */
