@@ -1,9 +1,11 @@
 <template>
 <div id="slide">
-  <slider animation="fade">
-    <p style="line-height: 200px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
+  <slider animation="fade" height="600px">
+    <p style="line-height: 600px; font-size: 5rem; text-align: center;" v-if="!list.length">Loading...</p>
     <slider-item v-for="i in list">
-        <img :src="require('../../../assets/images/' + i.path)" width="300" height="200">
+        <p style="line-height: 680px; font-size: 5rem; text-align: center;">
+            <img :src="require('../../../assets/images/' + i.path)" width="800" height="600" >
+        </p>
     </slider-item>
   </slider>
 </div>    
