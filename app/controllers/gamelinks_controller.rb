@@ -25,6 +25,10 @@ class GamelinksController < ApplicationController
 
   def game
     @games = Game.page(params[:page]).per(PER)
+
+    @games.each do |game|
+      game.images = game.images.split(",")
+    end
   end
 
   def browsergame

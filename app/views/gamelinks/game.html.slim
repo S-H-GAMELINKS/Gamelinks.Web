@@ -1,32 +1,8 @@
-title
-  | GAMELINKS
-l
-  h1
-    | Game
-hr
-div[style="text-align:center"]
-  h2
-    |  ゲームリンクスでこれまでに制作してきたゲームです
-    br
-    |  ダウンロードボタンをクリックするとダウンロード先へ移動します
-    br
-    br
-    br
-    br
-  - @games.each do |game|
-    l
-      h1
-        = game.title
-    - image_path = game.images.split(",")
-    = image_tag image_path[0], :width =>"300", :height => "200"
-    = image_tag image_path[1], :width =>"300", :height => "200"
-    br
-    br
-    h2
-      = game.about
-    = button_to "ダウンロード", game.link
-    br
-    br
-    br
+javascript:
+  const page_title    = "Game"; 
+  const page_about    = "Game";
+  const page_message  = "ゲームリンクスでこれまでに制作してきたゲームです。ダウンロードボタンをクリックするとダウンロード先へ移動します。";
+  const games = #{{@games.to_json}};
 
-  = paginate @games
+= javascript_pack_tag 'template'
+= javascript_pack_tag 'game'
