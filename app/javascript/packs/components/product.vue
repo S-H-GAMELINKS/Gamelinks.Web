@@ -4,6 +4,7 @@
         <h2 v-for="p in product">
             <p><a href="p.link">{{p.name}}</a></p>
             <p>{{p.about}}</p>
+            <br><br>
         </h2>
         <br>
         <br>
